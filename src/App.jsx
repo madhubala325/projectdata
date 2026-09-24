@@ -8,7 +8,7 @@ function App() {
       <h1>Hello react new page</h1>
       <Link to="/projectdata/product">Product</Link>
       <Routes>
-        <Route path="/product" element={<Product/>}/>
+        <Route path="/projectdata/product" element={<Product/>}/>
       </Routes>
     </div>
   )
