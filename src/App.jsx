@@ -1,0 +1,17 @@
+import React from 'react'
+import { Link, Route, Routes } from 'react-router-dom'
+import Product from './Product'
+
+function App() {
+  return (
+    <div>
+      <h1>Hello react new page</h1>
+      <Link to="/product">Product</Link>
+      <Routes>
+        <Route path="/product" element={<Product/>}/>
+      </Routes>
+    </div>
+  )
+}
+
+export default App
